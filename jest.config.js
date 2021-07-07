@@ -9,4 +9,5 @@ module.exports = {
   },
   setupFilesAfterEnv: ['./jest.setup.js'],
   collectCoverage: true,
+  collectCoverageFrom: ['src/components/**/*.ts', 'src/components/**/*.tsx'],
 };
