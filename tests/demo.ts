@@ -11,6 +11,7 @@ const EmptyComponent = {
 export function snapshotDemo(Demo: any) {
   test('renders demo correctly', async () => {
     const wrapper = mount(Demo, {
+      
       stubs: {
         'demo-title': EmptyComponent,
         'demo-cell': EmptyComponent,
